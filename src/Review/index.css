@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.review-bg-container{
+    width:80vw;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-left:230px;
+}
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + p {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + p{
+    border-bottom: 2px solid #2e2e2e;
+  }
+  .pamyment-text{
+   
+    align-items: center;
+    text-align: center;
+  }
+  .paymentType{
+    margin-top:30px;
+    font-size: 16px;
+    font-family:roboto;
+    margin-right:50px;
+    
+  }
+  .flexDiv{
+    display:flex;
+    flex-direction:column;
+  }
+  @media only screen and (max-width: 768px) {
+    .review-bg-container{
+        margin-left:0px;
+        width:100%;
+    }
+    }
+  

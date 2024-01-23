@@ -1,0 +1,13 @@
+.carousel-div{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%
+}
+.shop2-bg-container{
+    width:90vw;
+    display: flex;
+}
+#home-top-navbar-container{
+    background-color: aqua !important;
+}

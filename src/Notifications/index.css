@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container-notifications{
+    width: 75vw;
+    background-color: whitesmoke;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.notification-div1{
+    height:60px;
+    width:70%;
+    background-color:#ffffff;
+    border-radius:8px;
+    display:flex;
+    flex-direction:row;
+    box-sizing: border-box;
+   
+}
+.notification-img1{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin-top:13px;
+    margin-left:20px;
+}
+.notification-text1{
+    margin-top:20px;
+    margin-left:20px;
+    font-family:roboto;
+    font-size:14px;
+}
+@media screen and (max-width: 768px) {
+    .notification-img{
+        height:70px;
+        width:70px;
+        border-radius: 50%;
+       
+    }
+    .notification-text{
+        font-family:roboto;
+        font-size:13px;
+        margin-top:0px;
+        margin-left:0px;
+    }
+    .notification-div{
+        height:130px;
+        width:50%;
+        background-color:#ffffff;
+        border-radius:10px;
+        border: 2px solid;
+        display:flex;
+        flex-direction:column;
+        box-sizing: border-box;
+       
+    }
+   
+  }
